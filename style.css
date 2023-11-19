@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+body{
+    height: 100vh;
+}
+.mainheaderimg {
+    width: 100%;
+}
+
+.transformimg {
+    
+    margin-top: -2.5px;
+}
+.header{
+    padding:32px 24px 0px 24px;
+    position: absolute;
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    align-items: center;
+    top:0px;
+}
+.hamburger {
+    width: 24px;
+    height: 16px;
+}
+.arrow{
+    justify-self: center;
+    margin-top: 52px;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+}
+.headertxt{
+    width: -webkit-fill-available;
+    display: grid;
+    justify-content: center;
+    position:absolute;
+    justify-self: center;
+    top: 144px;
+}
+
+section img{
+    width: 100%;
+}
+.txtdiv{
+    padding: 48px 24px;
+    text-align: center;
+    display: grid;
+}
+.txtdiv h2{
+    color: #24303E;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.229px;
+}
+.txtdiv p{
+    margin-top: 24px;
+    color: #808397;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px; 
+    letter-spacing: -0.129px;
+    
+}
+.txtdiv h3{
+    color: #24303E;
+    font-family: "Fraunces";
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 25px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: -25px;
+}
+.colordivparent{
+    margin-top: 32px;
+    display: grid;
+}
+.colordiv{
+    border-radius: 28px;
+    opacity: 0.25;
+    background: #FAD400;
+    
+    width: 137px;
+    height: 10px;
+    justify-self: center;
+}
+.fruitdiv h2{
+    color: #24554A;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+}
+.fruitdiv p{
+    color: #24554A;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px; 
+    letter-spacing: -0.114px;
+    margin:27px 24px 0px 24px;
+
+}
+.fruitdiv{
+    position: relative;
+    display: grid;
+}
+.fruitdivtxt{
+    position: absolute;
+    bottom: 60px;
+    justify-self: center;
+}
+.orange h2{
+    color: #19536C;
+}
+.orange p{
+    color: #19536C;
+}
+.secondsection img{
+    width: 72px;
+    border-radius: 50%;
+}
+.secondsection{
+    padding: 30px 24px 50px 24px;
+    display: grid;
+    grid-row-gap: 64px;
+}
+
+h4{
+    color: #A7AAAD;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.employeediv{
+    display: grid;
+    justify-items: center;
+}
+
+.employeediv p{
+    color: #5B636D;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px; 
+    letter-spacing: -0.129px;
+    margin-top: 32px;
+}
+.employeediv h5{
+    color: #24303E;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.129px;
+    margin-top: 32px;
+}
+.employeediv span{
+    color: #A7AAAD;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    margin-top: 8px;
+}
+article img{
+    width: 100%;
+}
+article{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+footer{
+    padding:64px 39px 80px 39px;
+    display: grid;
+    justify-items: center;
+    background-color: #90D4C6;
+}
+footer p {
+    color: #458D7E;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.129px;
+}
+.footertxt{
+    margin-top:40px;
+    display: flex;
+    width: 297px;
+    justify-content: space-between;
+}
+.media{
+    width:164px;
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    position: absolute;
+    top: 82px;
+    right: 24px;
+    display: grid;
+    left: 24px;
+    width: -webkit-fill-available;
+    display: none;
+}
+.menutxt{
+    text-align: center;
+    display: grid;
+    row-gap: 32px;
+    background-color: white;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    justify-items: center;
+}
+.menu p{
+    color: #808397;
+    font-family: "Barlow";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px; 
+    letter-spacing: -0.143px;
+
+}
+
+.path{
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-right: 24px solid white;
+    margin-bottom: -1px;
+    justify-self: end
+}
+
+.hamburger:hover {
+    cursor: pointer;    
+}
+.color:hover {
+    cursor: pointer;
+}
+.color:hover  p{
+    color:black;
+}
+
+.footertxt p:hover{
+    color:white;
+    cursor: pointer;
+}
+.media svg:hover path{
+    fill: white;
+    
+}
+.media svg:hover{
+    cursor: pointer;
+}
+.second{
+    background-color: #FE7766;
+}
+
+.colordivparent:hover{
+    cursor: pointer;
+}
+.colordivparent:hover .colordiv{
+    opacity: 1;
+}
+.txtdiv h3{
+    cursor: pointer;
+}
+.menutxtdesktop,.mainheaderimgdesktop,.desktopgrapic,.desktoppotpgrapic{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1440px){
+.hamburger,.mainheaderimg,.mobilegrapic,.mobilepotograpic{
+    display: none;
+}
+.menutxtdesktop{
+    display: flex;
+}
+.mainheaderimgdesktop,.desktopgrapic,.desktoppotpgrapic{
+    display: block;
+    width: 100%;
+}
+.menutxtdesktop p{
+    color: #FFF;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px; 
+    letter-spacing: -0.129px;
+    
+}
+.menutxtdesktop div{
+    padding:15px 31px;
+    margin-left:12px;
+    border-radius: 28px;
+}
+#lastdiv{
+    background-color: white;
+}
+#lastdiv p{
+    color: #24303E;
+    font-family: "Fraunces";
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.107px;
+    text-transform: uppercase;
+}
+
+
+.about{
+    margin-left: 0px;
+}
+.headertxt{
+    top:195px;
+}
+h1{
+    font-size: 56px;
+    letter-spacing: 8.75px;
+}
+.arrow{
+    margin-top: 97px;
+}
+.txtdiv {
+    padding: 200px 106px 150px 165px;
+    display: flex;
+    flex-direction: column;
+}
+.txtdiv h2{
+    font-size: 40px;
+    text-align: start;
+}
+.txtdiv p{
+    text-align: start;
+    margin-top: 32px;
+}
+.colordivparent{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    margin-top: 40px;
+    text-align: start;
+    margin-left: 8px;
+}
+.colordiv{
+    justify-self: start;
+}
+.firstsection{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.firstsection img{
+    height: 100%;
+    
+}
+.transformimg {
+    margin-top: 0px;
+}
+.fruitdiv p{
+    margin: 27px 180px 0px 180px;
+}
+.secondsection {
+    padding: 160px 165px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 81px;
+    column-gap: 30px;
+}
+
+.one{
+    grid-column: 1;
+    grid-row: 1;
+}
+h4{
+    font-size: 20px;
+    letter-spacing: 5px;
+    grid-column: 1/4;
+}
+.employeediv p{
+    margin-top: 58px;
+}
+.employeediv h5{
+    margin-top: 69px;
+}
+article{
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.menutxtdesktop div:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.menutxtdesktop div:hover p{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.107px;
+    text-transform: uppercase;
+}
+#lastdiv:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#lastdiv:hover p{
+    color:white;
+}
+}
